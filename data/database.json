@@ -1,0 +1,25 @@
+{
+  "meds": [
+    {
+      "name": "Lisinopril",
+      "dosage": "30mg",
+      "interval": "daily",
+      "status": "!ALREADY TAKEN!",
+      "id": 1
+    },
+    {
+      "name": "Cigarette",
+      "dosage": "1",
+      "interval": "daily",
+      "status": "!ALREADY TAKEN!",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "email": "boggyboggy@gmail.com",
+      "fullName": "Harrison",
+      "id": 1
+    }
+  ]
+}

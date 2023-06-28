@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100;200;300;400;500&display=swap');
+
+
+* {
+  margin: 0;
+  font-family:"Chivo", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: bisque;
+  
+  
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #1976d2;
+  color: #1c16db;
+  font-family: "Chivo", sans-serif;
+  border-bottom: 0px solid #000000;
+}
+
+.navbar h1 {
+  color: #1976d2;
+  flex: 1;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.navbar .links {
+  flex: 1;
+  color: #3115d0;
+  display: flex;
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #1976d2;
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #0e08c1;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.med-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.med-details button {
+  background: #1976d2;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.register button {
+  background: #1976d2;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.med-preview{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #1976d2;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #1976d2;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submit button {
+  background: #1976d2;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
